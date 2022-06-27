@@ -1,0 +1,258 @@
+{
+  "fips": "0",
+  "country": "US",
+  "state": null,
+  "county": null,
+  "hsa": null,
+  "hsaName": null,
+  "level": "country",
+  "lat": null,
+  "locationId": "iso1:us",
+  "long": null,
+  "population": 331486822,
+  "hsaPopulation": null,
+  "metrics": {
+    "testPositivityRatio": 0.103,
+    "testPositivityRatioDetails": {
+      "source": "other"
+    },
+    "caseDensity": 32.7,
+    "weeklyNewCasesPer100k": 228.6,
+    "contactTracerCapacityRatio": null,
+    "infectionRate": 1.19,
+    "infectionRateCI90": 0.1,
+    "icuCapacityRatio": 0.72,
+    "bedsWithCovidPatientsRatio": 0.032,
+    "weeklyCovidAdmissionsPer100k": 7.4,
+    "vaccinationsInitiatedRatio": 0.778,
+    "vaccinationsCompletedRatio": 0.666,
+    "vaccinationsAdditionalDoseRatio": 0.309
+  },
+  "riskLevels": {
+    "overall": 3,
+    "testPositivityRatio": 2,
+    "caseDensity": 3,
+    "contactTracerCapacityRatio": 4,
+    "infectionRate": 2,
+    "icuCapacityRatio": 1
+  },
+  "cdcTransmissionLevel": 3,
+  "communityLevels": {
+    "cdcCommunityLevel": null,
+    "canCommunityLevel": 1
+  },
+  "actuals": {
+    "cases": 83132374,
+    "deaths": 1000411,
+    "positiveTests": 78151839,
+    "negativeTests": 782112312,
+    "contactTracers": 67199,
+    "hospitalBeds": {
+      "capacity": 763101,
+      "currentUsageTotal": 588595,
+      "currentUsageCovid": 24764,
+      "weeklyCovidAdmissions": 24658
+    },
+    "hsaHospitalBeds": {
+      "capacity": null,
+      "currentUsageTotal": null,
+      "currentUsageCovid": null,
+      "weeklyCovidAdmissions": null
+    },
+    "icuBeds": {
+      "capacity": 78271,
+      "currentUsageTotal": 56468,
+      "currentUsageCovid": 2258
+    },
+    "hsaIcuBeds": {
+      "capacity": null,
+      "currentUsageTotal": null,
+      "currentUsageCovid": null
+    },
+    "newCases": 139427,
+    "newDeaths": 398,
+    "vaccinesDistributed": 740540955,
+    "vaccinationsInitiated": 258036101,
+    "vaccinationsCompleted": 220811243,
+    "vaccinationsAdditionalDose": 102591622,
+    "vaccinesAdministered": 583478451,
+    "vaccinesAdministeredDemographics": null,
+    "vaccinationsInitiatedDemographics": null
+  },
+  "annotations": {
+    "cases": {
+      "sources": [
+        {
+          "type": "NYTimes",
+          "url": "https://github.com/nytimes/covid-19-data",
+          "name": "The New York Times"
+        }
+      ],
+      "anomalies": [
+        {
+          "date": "2022-05-20",
+          "type": "cumulative_tail_truncated",
+          "original_observation": 83132374.0
+        }
+      ]
+    },
+    "deaths": {
+      "sources": [
+        {
+          "type": "NYTimes",
+          "url": "https://github.com/nytimes/covid-19-data",
+          "name": "The New York Times"
+        }
+      ],
+      "anomalies": [
+        {
+          "date": "2022-05-20",
+          "type": "cumulative_tail_truncated",
+          "original_observation": 1000411.0
+        }
+      ]
+    },
+    "positiveTests": null,
+    "negativeTests": null,
+    "contactTracers": null,
+    "hospitalBeds": null,
+    "hsaHospitalBeds": null,
+    "icuBeds": null,
+    "hsaIcuBeds": null,
+    "newCases": null,
+    "newDeaths": {
+      "sources": [],
+      "anomalies": [
+        {
+          "date": "2020-06-25",
+          "type": "zscore_outlier",
+          "original_observation": 2466.0
+        }
+      ]
+    },
+    "vaccinesDistributed": {
+      "sources": [
+        {
+          "type": "other",
+          "url": "https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-Jurisdi/unsk-b7fc",
+          "name": "Centers for Disease Control and Prevention"
+        }
+      ],
+      "anomalies": []
+    },
+    "vaccinationsInitiated": {
+      "sources": [
+        {
+          "type": "other",
+          "url": "https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-Jurisdi/unsk-b7fc",
+          "name": "Centers for Disease Control and Prevention"
+        }
+      ],
+      "anomalies": []
+    },
+    "vaccinationsCompleted": {
+      "sources": [
+        {
+          "type": "other",
+          "url": "https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-Jurisdi/unsk-b7fc",
+          "name": "Centers for Disease Control and Prevention"
+        }
+      ],
+      "anomalies": []
+    },
+    "vaccinationsAdditionalDose": {
+      "sources": [
+        {
+          "type": "other",
+          "url": "https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-Jurisdi/unsk-b7fc",
+          "name": "Centers for Disease Control and Prevention"
+        }
+      ],
+      "anomalies": []
+    },
+    "vaccinesAdministered": {
+      "sources": [
+        {
+          "type": "other",
+          "url": "https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-Jurisdi/unsk-b7fc",
+          "name": "Centers for Disease Control and Prevention"
+        }
+      ],
+      "anomalies": []
+    },
+    "testPositivityRatio": null,
+    "caseDensity": {
+      "sources": [
+        {
+          "type": "NYTimes",
+          "url": "https://github.com/nytimes/covid-19-data",
+          "name": "The New York Times"
+        }
+      ],
+      "anomalies": [
+        {
+          "date": "2022-05-20",
+          "type": "cumulative_tail_truncated",
+          "original_observation": 83132374.0
+        }
+      ]
+    },
+    "weeklyNewCasesPer100k": {
+      "sources": [
+        {
+          "type": "NYTimes",
+          "url": "https://github.com/nytimes/covid-19-data",
+          "name": "The New York Times"
+        }
+      ],
+      "anomalies": [
+        {
+          "date": "2022-05-20",
+          "type": "cumulative_tail_truncated",
+          "original_observation": 83132374.0
+        }
+      ]
+    },
+    "contactTracerCapacityRatio": null,
+    "infectionRate": {
+      "sources": [
+        {
+          "type": "NYTimes",
+          "url": "https://github.com/nytimes/covid-19-data",
+          "name": "The New York Times"
+        }
+      ],
+      "anomalies": [
+        {
+          "date": "2022-05-20",
+          "type": "cumulative_tail_truncated",
+          "original_observation": 83132374.0
+        }
+      ]
+    },
+    "infectionRateCI90": {
+      "sources": [
+        {
+          "type": "NYTimes",
+          "url": "https://github.com/nytimes/covid-19-data",
+          "name": "The New York Times"
+        }
+      ],
+      "anomalies": [
+        {
+          "date": "2022-05-20",
+          "type": "cumulative_tail_truncated",
+          "original_observation": 83132374.0
+        }
+      ]
+    },
+    "icuCapacityRatio": null,
+    "bedsWithCovidPatientsRatio": null,
+    "weeklyCovidAdmissionsPer100k": null,
+    "vaccinationsInitiatedRatio": null,
+    "vaccinationsCompletedRatio": null,
+    "vaccinationsAdditionalDoseRatio": null
+  },
+  "lastUpdatedDate": "2022-05-21",
+  "url": null
+}
